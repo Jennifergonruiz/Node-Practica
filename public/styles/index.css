@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@300;400&display=swap');
+
+body {
+    min-width: 60%;
+    width: 80%;
+    margin: auto;
+}
+
+.container {
+    font-family: 'Inter', sans-serif;
+    background-color: lightblue;
+    padding: 2%;
+}
+
+h1 {
+    color: navy;
+}
+
+#task {
+    padding: 1% 2%;
+    border-color: navy;
+}
+
+#submit {
+    padding: 1% 2%;
+    border-color: navy;
+    background-color: navy;
+    color: white;
+}
+
+.ongoing {
+    color: navy;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+ol{
+    display: block;
+}
+
+ol li{
+    align-items: flex-start;
+}
